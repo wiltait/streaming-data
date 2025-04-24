@@ -35,7 +35,7 @@ Fetches articles from The Guardian API and publishes them to AWS SQS for process
    ```
 
 Edit .env with your credentials:
-   ```bash
+    ```bash
     # Guardian API
     GUARDIAN_API_KEY=your_api_key_here
 
