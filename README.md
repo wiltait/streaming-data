@@ -17,8 +17,8 @@ Fetches articles from The Guardian API and publishes them to AWS SQS for process
 
 1. Clone repository:
    ```bash
-   git clone [your-repo-url]
-   cd streaming-data-project
+   git clone https://github.com/wiltait/streaming-data.git
+   cd streaming-data
    ``` 
 2. Create virtual environment:
    ```bash
