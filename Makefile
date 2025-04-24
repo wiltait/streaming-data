@@ -1,3 +1,5 @@
+export PYTHONPATH := $(shell pwd)
+
 .PHONY: install test run clean
 
 install:
