@@ -25,7 +25,6 @@ class TestSQSPublisherIntegration(unittest.TestCase):
         message_id = publisher.publish_article(test_msg)
         self.assertIsNotNone(message_id)
         
-        # Optional: Add message consumption test here
 
 if __name__ == "__main__":
     unittest.main()
